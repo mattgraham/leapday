@@ -5,3 +5,5 @@ Open source content for Leap Day theme. Theme was first designed / developed for
 The Leap Day Pages demo is [here](http://mattgraham.github.com/Leap-Day) 
 
 Theme by [Matt Graham](http://madebygraham.com), twitter [@michigangraham](http://twitter.com/#!/michigangraham)
+
+[Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
