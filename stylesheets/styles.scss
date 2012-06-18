@@ -559,6 +559,10 @@ footer {
     bottom:auto;
     width:auto;
   }
+  nav {
+    position: absolute; 
+    top: 0;
+  }
 }
 
 @media print, screen and (max-height: 480px) {
