@@ -503,7 +503,7 @@ table {
 }
 
 body {
-  font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
   font-weight: 300;
   margin: 0px;
@@ -584,45 +584,42 @@ blockquote {
 pre {
   padding: 8px 15px;
   background: #333333;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   border: 1px solid #c7c7c7;
   overflow: auto;
   overflow-y: hidden;
 }
 pre code {
-  font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size: 13px;
   color: #efefef;
   text-shadow: 0px 1px 0px #000;
   margin: 0px;
   padding: 0px;
   background: #333;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
 }
 
 code {
-  font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size: 13px;
   color: #efefef;
   text-shadow: 0px 1px 0px #000;
   margin: 0 4px;
   padding: 2px 6px;
   background: #333;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
 }
 
@@ -671,16 +668,15 @@ header {
   width: 100%;
   text-align: center;
   background: url(../images/background.png) #4276b6;
-  -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
-  -o-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   z-index: 99;
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
 }
 header h1 {
-  font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f3f3f3;
   text-shadow: 0px 2px 0px #235796;
   margin: 0px;
@@ -707,17 +703,21 @@ header p {
   top: 115px;
   background: #ffcc00;
   border: 1px solid #f0b500;
-  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -moz-border-radius: 0px 2px 2px 0px;
   -webkit-border-radius: 0px 2px 2px 0px;
-  -o-border-radius: 0px 2px 2px 0px;
+  -moz-border-radius: 0px 2px 2px 0px;
   -ms-border-radius: 0px 2px 2px 0px;
-  -khtml-border-radius: 0px 2px 2px 0px;
+  -o-border-radius: 0px 2px 2px 0px;
   border-radius: 0px 2px 2px 0px;
-  padding-right: 10px;
+}
+#banner .banner-inner {
+  max-width: 650px;
+  width: 100%;
+  overflow: hidden;
+  float: right;
+  margin-right: 55px;
 }
 #banner .button {
   border: 1px solid #dba500;
@@ -725,17 +725,14 @@ header p {
   background: -webkit-linear-gradient(#ffe788, #ffce38);
   background: -moz-linear-gradient(#ffe788, #ffce38);
   background: -o-linear-gradient(#ffe788, #ffce38);
-  background: -ms-linear-gradient(#ffe788, #ffce38);
   background: linear-gradient(#ffe788, #ffce38);
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #FFE788;
   margin-left: 5px;
@@ -753,23 +750,20 @@ header p {
   background: -webkit-linear-gradient(#ffe788, #ffe788);
   background: -moz-linear-gradient(#ffe788, #ffe788);
   background: -o-linear-gradient(#ffe788, #ffe788);
-  background: -ms-linear-gradient(#ffe788, #ffe788);
   background: linear-gradient(#ffe788, #ffe788);
   background-color: #ffeca0;
 }
 #banner .fork {
-  position: fixed;
-  left: 50%;
-  margin-left: -325px;
   padding: 10px 12px;
   margin-top: 6px;
   line-height: 14px;
   font-size: 14px;
   background-color: #FFE788;
+  margin-left: 0;
 }
 #banner .downloads {
   float: right;
-  margin: 0 45px 0 0;
+  margin: 0;
 }
 #banner .downloads span {
   float: left;
@@ -809,16 +803,14 @@ section {
   margin-top: 190px;
   position: relative;
   background: #fbfbfb;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   border: 1px solid #cbcbcb;
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
-  -o-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
 }
 
@@ -894,12 +886,25 @@ footer {
 
   #banner {
     width: 100%;
+    max-width: none;
+  }
+  #banner .banner-inner {
+    float: none;
+    margin: 0 auto;
+    max-width: none;
   }
   #banner .downloads {
-    margin-right: 60px;
+    margin-right: 20px;
+  }
+  #banner .fork {
+    left: 50%;
+    position: relative;
+    margin-left: -325px;
   }
   #banner #logo {
-    margin-right: 15px;
+    margin-right: 5px;
+    float: right;
+    position: relative;
   }
 
   section {
