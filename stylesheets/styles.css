@@ -559,6 +559,10 @@ ul {
   list-style-image: url("../images/bullet.png");
 }
 
+ol {
+  list-style-image: none;
+}
+
 strong {
   font-weight: bold;
   color: #333;
