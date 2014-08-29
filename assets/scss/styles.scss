@@ -46,6 +46,7 @@ h1 {
 
 h2 {
   @include font-size(2.4);
+  @include line-height(3.2);
   color: $color-darkGrey;
 }
 
@@ -55,7 +56,7 @@ h3, h4, h5, h6 {
 
 h3 {
   @include font-size(1.8);
-  line-height: 24px;
+  @include line-height(2.4);
 }
 
 a {
