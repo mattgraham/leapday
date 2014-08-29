@@ -1,8 +1,8 @@
 http_path = "/"
-css_dir = "/stylesheets"
-sass_dir = "/stylesheets"
-images_dir = "/images"
-javascripts_dir = "/javascripts"
+css_dir = "assets/stylesheets"
+sass_dir = "assets/scss"
+images_dir = "assets/images"
+javascripts_dir = "assets/javascripts"
 
 output_style = :compressed
 
