@@ -1,125 +1,94 @@
 ---
 layout: default
 ---
-  <section>
-    <h1>Heading One</h1>
-    <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+Heading One
+===========
+This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:
 
-    <p><img src="http://f.cl.ly/items/1f3f0U0A3x0P1Z022y1Q/532999_10150681079447771_501672770_9454022_1744955305_n.jpeg" alt="New Haven South Beach by Matt Graham"></p>
+![New Haven South Beach by Matt Graham](http://f.cl.ly/items/1f3f0U0A3x0P1Z022y1Q/532999_10150681079447771_501672770_9454022_1744955305_n.jpeg)
 
-    <pre><code>$ cd your_repo_root/repo_name
-    $ git fetch origin
-    $ git checkout gh-pages</code>
-    </pre>
+        $ cd your_repo_root/repo_name
+        $ git fetch origin
+        $ git checkout gh-pages
 
-    <p>As we do, we're open sourcing the front end code for the new GitHub pages themes. This is just one of the many beautiful themes that can used to dynamically turn your static repo into a beautiful marketing site.  </p>
+As we do, we're open sourcing the front end code for the new GitHub pages themes. This is just one of the many beautiful themes that can used to dynamically turn your static repo into a beautiful marketing site.
 
-    <h2>Designer Templates</h2>
+Designer Templates
+------------------
 
-    <p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your page content will be preserved if it remained in markdown format.</p>
+We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your page content will be preserved if it remained in markdown format.
 
-    <ul>
-      <li>Hack by <a href="https://github.com/bleikamp">Ben Bleikamp</a></li>
-      <li>Merlot by <a href="https://github.com/cameronmcefee">Cameron McEfee</a></li>
-      <li>Slate by <a href="https://github.com/jsncostello">Jason Costello</a></li>
-      <li>Time Machine by <a href="https://github.com/jonrohan">Jon Rohan</a></li>
-      <li>Leap Day by <a href="https://github.com/mattgraham">Matt Graham</a></li>
-      <li>Midnight by <a href="https://github.com/mattgraham">Matt Graham</a></li>
-      <li>Minimal by <a href="https://github.com/orderedlist">Steve Smith</a></li>
-      <li>Modernist by <a href="https://github.com/orderedlist">Steve Smith</a></li>
-    </ul>
+* Hack by [Ben Bleikamp](https://github.com/bleikamp)
+* Merlot by [Cameron McEfee](https://github.com/cameronmcefee)
+* Slate by [Jason Costello](https://github.com/jsncostello)
+* Time Machine by [Jon Rohan](https://github.com/jonrohan)
+* Leap Day by [Matt Graham](https://github.com/mattgraham)
+* Midnight by [Matt Graham](https://github.com/mattgraham)
+* Minimal by [Steve Smith](https://github.com/orderedlist)
+* Modernist by [Steve Smith](https://github.com/orderedlist)
 
-    <p>For more info on GitHub Pages, check out <a href="http://pages.github.com/">pages.github.com</a>. For help, check the <a href="http://help.github.com/pages">GitHub Pages documentation</a>.</p>
+For more info on GitHub Pages, check out [pages.github.com](http://pages.github.com/). For help, check the [GitHub Pages documentation](http://help.github.com/pages).
 
-    <h2>What will code look like?</h2>
+What will code look like?
+-------------------------
 
-    <p>Your code should be beautiful, or at least that's what the designers think. </p>
+Your code should be beautiful, or at least that's what the designers think.
 
-    <div class="highlight">
-<pre><span class="nb">require</span> <span class="s1">'adapter/memory'</span>
-<span class="nb">require</span> <span class="s1">'toystore'</span>
+{% highlight ruby %}
+require 'adapter/memory'
+require 'toystore'
 
-<span class="k">class</span> <span class="nc">User</span>
-<span class="kp">include</span> <span class="no">Toy</span><span class="o">::</span><span class="no">Store</span>
-<span class="n">adapter</span> <span class="ss">:memory</span><span class="p">,</span> <span class="p">{}</span>
+class User
+include Toy::Store
+adapter :memory, {}
 
-<span class="n">attribute</span> <span class="ss">:name</span><span class="p">,</span> <span class="nb">String</span>
-<span class="k">end</span>
-</pre>
+attribute :name, String
+end
+{% endhighlight %}
+
+So, this is what HTML Code looks like
+
+{% highlight html %}
+<html>
+<body>
+  <div id="header">
+    <nav>
+       <li>Home</li>
+       <li>About Us</li>
+       <li>Contact</li>
+      </nav>
     </div>
+</body>
+</html>
+{% endhighlight %}
 
-    <p>So, this is what HTML Code looks like</p>
+And, then maybe some CSS
 
-    <div class="highlight">
-<pre><span class="nt">&lt;html&gt;</span>
-<span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"header"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;nav&gt;</span>
-       <span class="nt">&lt;li&gt;</span>Home<span class="nt">&lt;/li&gt;</span>
-       <span class="nt">&lt;li&gt;</span>About Us<span class="nt">&lt;/li&gt;</span>
-       <span class="nt">&lt;li&gt;</span>Contact<span class="nt">&lt;/li&gt;</span>
-      <span class="nt">&lt;/nav&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</pre>
-    </div>
+{% highlight css %}
+body {
+font:14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#666;
+font-weight:300;
+margin: 0px;
+padding:0px 0 20px 0px;
+background: url(../images/body-background.png) #eae6d1;
+}
 
-    <p>And, then maybe some CSS</p>
+h1, h2, h3, h4, h5, h6 {
+color:#333;
+margin:0 0 10px;
+}
 
-    <div class="highlight">
-<pre>
-<span class="nt">body</span> <span class="p">{</span>
-<span class="k">font</span><span class="o">:</span><span class=
-"m">14px</span><span class="o">/</span><span class="m">22px</span> <span class=
-"s1">'Quattrocento Sans'</span><span class="o">,</span> <span class=
-"s2">"Helvetica Neue"</span><span class="o">,</span> <span class=
-"n">Helvetica</span><span class="o">,</span> <span class=
-"n">Arial</span><span class="o">,</span> <span class=
-"k">sans-serif</span><span class="p">;</span>
-<span class="k">color</span><span class="o">:</span><span class=
-"m">#666</span><span class="p">;</span>
-<span class="k">font-weight</span><span class=
-"o">:</span><span class="m">300</span><span class="p">;</span>
-<span class="k">margin</span><span class="o">:</span> <span class=
-"m">0px</span><span class="p">;</span>
-<span class="k">padding</span><span class="o">:</span><span class=
-"m">0px</span> <span class="m">0</span> <span class=
-"m">20px</span> <span class="m">0px</span><span class="p">;</span>
-<span class="k">background</span><span class=
-"o">:</span> <span class="sx">url(../images/body-background.png)</span> <span class="m">#eae6d1</span><span class="p">;</span>
-<span class="p">}</span>
+p, ul, ol, table, pre, dl {
+margin:0 0 20px;
+}
+{% endhighlight %}
 
-<span class="nt">h1</span><span class="o">,</span> <span class=
-"nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class=
-"o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class=
-"nt">h5</span><span class="o">,</span> <span class="nt">h6</span> <span class=
-"p">{</span>
-<span class="k">color</span><span class="o">:</span><span class=
-"m">#333</span><span class="p">;</span>
-<span class="k">margin</span><span class="o">:</span><span class=
-"m">0</span> <span class="m">0</span> <span class="m">10px</span><span class=
-"p">;</span>
-<span class="p">}</span>
+Inline code would look a little different. `We want you to see` where it is, but its going to be a little less noticeable. It might also be as simple as `:hover` and as unique as `:first-child`. It is up to you.
 
-<span class="nt">p</span><span class="o">,</span> <span class=
-"nt">ul</span><span class="o">,</span> <span class="nt">ol</span><span class=
-"o">,</span> <span class="nt">table</span><span class="o">,</span> <span class=
-"nt">pre</span><span class="o">,</span> <span class="nt">dl</span> <span class=
-"p">{</span>
-<span class="k">margin</span><span class="o">:</span><span class=
-"m">0</span> <span class="m">0</span> <span class="m">20px</span><span class=
-"p">;</span>
-<span class="p">}</span>
-</pre>
-    </div>
+Sub-Nav Questions
+-----------------
 
-    <p>Inline code would look a little different. <code>We want you to see</code> where it is, but its going to be a little less noticeable. It might also be as simple as <code>:hover</code> and as unique as <code>:first-child</code>. It is up to you. </p>
+The sub-navigation is automatically generated using a little JS based on the H1 and H2 tags in your markdown file. The goal was to make it a quick `and exciting` way to write a markdown file and create an amazing pages site.
 
-    <h2>Sub-Nav Questions</h2>
-
-    <p>The sub-navigation is automatically generated using a little JS based on the H1 and H2 tags in your markdown file. The goal was to make it a quick <code>and exciting</code> way to write a markdown file and create an amazing pages site.  </p>
-
-    {% include mattgraham.html %}
-
-    </section>
+{% include mattgraham.html %}
