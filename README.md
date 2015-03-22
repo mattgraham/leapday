@@ -1,6 +1,6 @@
 # Leap Day
 
-Open source content for Leap Day theme. Theme was first designed / developed for GitHub Pages and is availalbe for download, forking and using anywhere else on the web. Like the theme share it with the twitterverse.
+Open source content for Leap Day theme. Theme was first designed / developed for GitHub Pages and is availalbe for download, forking and using anywhere else on the web.
 
 ![Leap Day](http://cl.ly/image/2Z1Z1e2q2I1C/image)
 
