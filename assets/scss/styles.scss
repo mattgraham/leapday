@@ -41,12 +41,13 @@ p, ul, ol, table, pre, dl {
 
 h1 {
   @include font-size(2.8);
-  @include line-height(3.6);
+  @include line-height(4.0);
+
 }
 
 h2 {
   @include font-size(2.4);
-  @include line-height(3.2);
+  @include line-height(3.6);
   color: $color-darkGrey;
 }
 
