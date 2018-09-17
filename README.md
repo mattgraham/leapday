@@ -20,4 +20,4 @@ Running `script/server` will run `jekyll serve && compass --watch` commands via 
 
 ### Credits
 
-Leap-Day Theme is by [Matt Graham](http://madebygraham.com), twitter [@michigangraham](http://twitter.com/#!/michigangraham). Use, reuse and modify away.
+Leap-Day Theme is by [Matt Graham](http://madebygraham.com), twitter [@mattgraham](http://twitter.com/#!/mattgraham). Use, reuse and modify away.
