@@ -2,11 +2,11 @@
 
 Open source content for Leap Day theme. Theme was first designed / developed for GitHub Pages and is availalbe for download, forking and using anywhere else on the web.
 
-![Leap Day](http://cl.ly/image/2Z1Z1e2q2I1C/image)
+![Leap Day](https://github.com/pages-themes/leap-day/raw/master/thumbnail.png)
 
 **Note** If you are an original Leap Day user (pre August 2014) the [1.0 tag](https://github.com/mattgraham/leapday/releases/tag/1.0) is what you are on.
 
-The Leap Day Pages demo is [here](http://mattgraham.github.com/leapday)
+The Leap Day Pages demo is [here](https://madebygraham.com/leapday)
 
 
 ### Developing Locally
@@ -20,4 +20,4 @@ Running `script/server` will run `jekyll serve && compass --watch` commands via 
 
 ### Credits
 
-Leap-Day Theme is by [Matt Graham](http://madebygraham.com), twitter [@mattgraham](http://twitter.com/#!/mattgraham). Use, reuse and modify away.
+Leap-Day Theme is by [Matt Graham](https://madebygraham.com), twitter [@mattgraham](http://twitter.com/#!/mattgraham). Use, reuse and modify away.
